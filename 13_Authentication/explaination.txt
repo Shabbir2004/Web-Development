@@ -1,0 +1,14 @@
+User ko profile dene se pehle ye check krna hota hai ki user hai kon -> Authentication
+
+Authorized to perform some taska which are only allowed to be executed by the admin - Authorization
+
+Server hr baar bhul jata hai aap kon ho , isliye wo hr baar wo har kaam ke liye aapse puchega aap kon ho
+
+Then the cookies and session concepts comes in 
+
+Sabse pehle hame kuch chize sikhni hai alg alg1
+1. Cookies kaise set krte hai and read krte hai
+2. Bcrypt kaise use krte hai for password encryption and decryption
+3. Jwt kya hai and jwt mai data kaise store kare and bahar nikale
+
+ -- JWT teen hisso se bana hai

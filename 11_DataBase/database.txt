@@ -1,0 +1,8 @@
+Database -> Collections -> Document
+
+-------------------------------------------
+
+CODE                      Database
+mongoose.connect  ->      Database create
+model create      ->      Collections
+CREATE code       ->      Document

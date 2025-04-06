@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body , html{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+     font-family: "Noto Sans", serif;
+}
+
+.container{
+   
+    background: linear-gradient(135deg , rgb(233, 74, 6 ) , rgb(161, 220, 33));
+     display: flex;
+    justify-content: center;
+    align-items: center;
+     height: 726px;
+}
+
+.content{
+    text-align: center;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 20px;
+    width: 300px;
+    
+}
+
+.logo{
+    width: 150px;
+    height: 75px;
+    object-fit: contain;
+}
+
+h1{
+    columns: #333;
+    margin-bottom: 10px;
+}
+
+p{
+    color: #666;
+    margin-bottom: 20px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="email"]{
+   padding:5px;
+   border-radius: 5px;
+   border: 1px solid;
+} 
+
+button{
+    padding: 5px;
+    margin-top: 10px;
+    background-color: rgb(235, 162, 17);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px black;
+}
+
+button:hover{
+    background-color: rgb(244, 199, 20);
+}
+
+svg{
+    position: absolute;
+}

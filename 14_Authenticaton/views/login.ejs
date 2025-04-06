@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+  </head>
+  <body>
+    <div class="w-full h-screen bg-zinc-800 flex items-center justify-center">
+      <form
+        method="post"
+        action="/login"
+        class="bg-zinc-900 p-6 rounded-lg shadow-lg w-96 flex flex-col gap-4"
+      >
+        <input
+          class="px-3 py-2 rounded-md bg-transparent border-2 border-white text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500"
+          type="email"
+          placeholder="Email"
+          name="email"
+        />
+
+        <input
+          class="px-3 py-2 rounded-md bg-transparent border-2 border-white text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500"
+          type="password"
+          placeholder="Password"
+          name="password"
+        />
+
+        <button
+          type="submit"
+          class="px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-md transition-all"
+        >
+          Login
+        </button>
+      </form>
+    </div>
+  </body>
+</html>

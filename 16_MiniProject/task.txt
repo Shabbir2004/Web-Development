@@ -1,0 +1,7 @@
+Users post likh payege
+-user create krne hai
+-login and register krna hai
+-post creation hoga
+-post like
+-post delete
+
