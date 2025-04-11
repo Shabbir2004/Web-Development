@@ -9,8 +9,8 @@ export default function Home() {
         <div className="relative z-10 max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid sm:grid-cols-2 items-center">
             {/* 👇 AI image moved to left */}
-            <div className="flex justify-center sm:justify-start mb-8 sm:mb-0">
-              <img className=" mx-15 w-96 opacity-90" src={aiimage} alt="AI Visual" />
+            <div className="flex justify-center sm:justify-start mb-10 sm:mb-0">
+              <img className="w-90 opacity-90" src={aiimage} alt="AI Visual" />
             </div>
 
             {/* 👇 Text + Button on the right */}
