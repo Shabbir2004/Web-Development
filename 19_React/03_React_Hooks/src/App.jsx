@@ -1,5 +1,6 @@
 import "./App.css";
 import { useState } from "react";
+import Navbar from "./components/Navbar";
 
 function App() {
   let [counter, setCounter] = useState(15);
@@ -18,6 +19,7 @@ function App() {
 
   return ( 
     <>
+     <Navbar counts={counter} />
       <h1>React Hooks</h1>
       <h2>Counter value : {counter}</h2>
       <button onClick={addValue}>Add value</button>
